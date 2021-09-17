@@ -1,0 +1,45 @@
+h1 {
+  margin: 30px;
+}
+h2 {
+  margin: 15px 0 10px 30px;
+}
+b {
+  margin: -10px;
+}
+hr {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}
+a {
+  color: #8B0000;
+}
+#form3 {
+  margin: 20px 0 0 75px;
+}
+#surname {
+  font-size: 30px;
+  margin: 30px;
+}
+#root {
+  margin: 20px 75px 0 75px;
+  padding: 10px;
+  background-color: #98FB98;
+}
+#buttonView {
+  color: #fff; /* цвет текста */
+  background: green; /* фон кнопки */
+  margin: 10px;
+  padding: .4em 1em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  border: none;
+}
+#buttonView:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+#buttonView:active { background: rgb(152,15,0); outline:none } /* при нажатии */
+#buttonView:focus{outline:none}
+#inputWeather {
+  padding: .4em 1em;
+}

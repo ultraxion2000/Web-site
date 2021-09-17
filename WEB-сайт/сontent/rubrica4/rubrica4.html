@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<link href="css/style5.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="css/style5_1.css"> 
+<style type="text/css">
+.left{
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+.a1 {
+    color: #008000; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   .a1:visited {
+    color: #800080; /* Цвет посещённой ссылки */
+   } 
+   .a1:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+</style>
+<title>Обсуждение</title>
+</head>
+<body>
+<!--Оболочка страницы-->
+ <div id="wrapper"> 
+<!--Шапка сайта-->
+    <div id="header">
+<!--Заголовок сайта-->
+  <div class="logo-title">
+  <a href="#">Комментарии на<br>сайте</a>
+</div> 
+    </div>
+<!--Сайдбар-->
+    <div id="sidebar">
+<!--меню-->
+      <h3>На нашем сайте</h3>
+<!--Картинки маркеров меню (галочки)-->
+        <p><img class="marcer" src="https://icon-icons.com/icons2/634/PNG/32/file-checkmark_icon-icons.com_58238.png" width="10" height="10">
+		<a class="a1" href="file:///C:\Users\Александр\Desktop\Курсач\сontent\rubrica2\rubrica2.html">О нас</a>
+		</p>
+		  <p><img class="marcer" src="https://icon-icons.com/icons2/634/PNG/32/file-checkmark_icon-icons.com_58238.png" width="10" height="10">
+	<a class="a1" href="file:///C:\Users\Александр\Desktop\Курсач\index.html">Главная страница</a></p>
+	 <p><img class="marcer" src="https://icon-icons.com/icons2/634/PNG/32/file-checkmark_icon-icons.com_58238.png" width="10" height="10">
+	<a class="a1" href="file:///C:\Users\Александр\Desktop\Курсач\сontent\rubrica1\rubrica1.html">Информация о средствах тестирования web-приложений</a></p>    
+
+
+<!--Общая информация в сайдбаре-->
+       <h3>Подробная информация</h3>
+     <p><img class="marcer" src="https://icon-icons.com/icons2/634/PNG/32/file-checkmark_icon-icons.com_58238.png" width="10" height="10">
+     <a class="a1" href="file:///C:\Users\Александр\Desktop\Курсач\сontent\rubrica3\rubrica3.html">Дополнительные источники</a></p>
+    
+    </div>
+<!--Основной контент (статья)-->
+    <div id="content">
+	
+    <h1 align="center">Оставьте свой комментарий</h1>
+    <!--Картинка справа-->
+     <div class="scale" > <img align="right" src="https://cdn.icon-icons.com/icons2/20/PNG/256/business_man_user_support_supportfortheuser_aquestion_theclient_2330.png"alt="" class="scale"></div>
+	
+	<FORM name="questions" id=form3>
+    <p><b>Введите своё имя:</b></p>
+      <input name="name" type="text" value =" ">
+    <p><b>Введите свой комментарий:</b></p>
+	 <input name="surname" type="text" value =" ">
+   
+   <p><b>Какую оценку дадите сайту ?</b></p>
+    <input name="question1" type="radio" value="3"> 3
+    <input name="question1" type="radio" value="4"> 4
+    <input name="question1" type="radio" value="5" CHECKED> 5
+  
+  
+    <p><input id="buttonView" type="button" value="Отправка ответов" OnClick="check();"></p>
+  </FORM>
+  <h2> Комментарии: </h2>
+<hr>
+  <div id="root"></div>
+  <script src='js/comment.js'></script>
+    </div>
+<!--Запрет наплывания-->
+  <div class="clear"></div>
+<!--Подвал-->
+    <div id="footer">
+	  <p class="fon"><strong>Телефон:<br> 265-48-92</strong> </p>
+      <p class="mail"><strong>E-mail<br>sasha.bezobrazov@gmail.com</strong></p>
+ </div>
+    
+  </div>
+</body>
+</html>
